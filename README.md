@@ -1,4 +1,4 @@
-*Welcome to Weather the Storm*
+⛈*Weather the Storm*🌿
 ---
 
 A spring take on a 5 day forecast app.
@@ -10,8 +10,8 @@ After waiting a short time, you may be asked to bloom a new browser tab by your 
 To make sure that there are no storms brewing before sprouting make sure to run `npm run forecast` or `npm test`.
 
 **As a user**:
-- [ ] I want to see the high and low temperatures for the forecast
-- [ ] I want to know the amount of rain I can expect for each day
+- [x] I want to see the high and low temperatures for the forecast
+- [x] I want to know the amount of rain I can expect for each day
 - [ ] I want to know when the sun will rise and fall
 - [ ] I want to see a timeline of the rain and temperature for each day
 - [ ] I want to be able to select a city to get the weather forecast
