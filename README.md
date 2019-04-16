@@ -3,6 +3,10 @@
 
 A spring take on a 5 day forecast app.
 
+Before starting make an account on [https://openweathermap.org](https://openweathermap.org) and get your API key. Once you have your API key make sure to create a `.env` file in the root directory with the following entry:
+
+```REACT_APP_OPEN_WEATHER_APPID:{API KEY HERE}```
+
 To get the winds blowing, clone this app onto your machine and then in your favourite command line interface (CLI) run `npm run sprout` or `npm start` if you want to be more succinct.
 
 After waiting a short time, you may be asked to bloom a new browser tab by your CLI. If not, do so yourself and navigate it to `localhost:3000`.

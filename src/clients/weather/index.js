@@ -9,7 +9,7 @@ export default class WeatherClient {
 
   static _service = null;
 
-  static baseUrl = "http://api.openweathermap.org/data/2.5";
+  static baseUrl = "https://api.openweathermap.org/data/2.5";
 
   static get5DayForecast(params = { q: "Vancouver,ca" }) {
     const queryString = getQueryString({
@@ -18,7 +18,9 @@ export default class WeatherClient {
       mode: "xml",
     });
 
-    return fetch(`${WeatherClient.baseUrl}/forecast${queryString}`)
+    return fetch(`${WeatherClient.baseUrl}/forecast${queryString}`, {
+      mode: "cors",
+    })
       .then(response => response.text())
       .then(xml => {
         let aggragateData = null;
