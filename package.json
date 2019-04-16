@@ -9,8 +9,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "sprout": "npm start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "forecast": "npm t",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
